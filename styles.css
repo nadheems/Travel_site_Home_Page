@@ -1,0 +1,41 @@
+/* CSS Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg'); /* Default background image */
+  background-size: cover;
+}
+
+.header {
+  background-color: #f2f2f2;
+  padding:0;
+  text-align: center;
+  margin-top: 0; /* Remove top margin */
+  padding-top: 0; /* Remove top padding */
+}
+
+.logo {
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+.menu a {
+  text-decoration: <b>;
+  color: #333;
+  margin: 0 10px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
